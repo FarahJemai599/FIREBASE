@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GMC</title>
+    <link rel="icon" href="res/image4.png">
+          <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+          </div>
+          <ul class="nav navbar-nav bg-red">
+              <li><div>
+                  <img width="50px" src="res/image4.png">
+                </div></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+<center>
+     
+  <div id="contact">
+    <img src="css/Capture2.PNG" >
+    </div>
+    <form id="formSubmit">
+    <div class="contact">
+    <div class="form-row">
+    <div class="col-md-4 mb-3">
+        <label for="validationCustom01">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name" value=" Your Name" required>
+
+        <div class="form-group">
+      <label for="exampleFormControlSelect1">Track</label>
+      <select class="form-control" id="track">
+        <option>Web</option>
+        <option>Game</option>
+        <option>AI</option>
+      </select>
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="name@example.com">
+    <br>
+    <label for="phone number">Phone number</label>
+    <input type="number" class="form-control" id="number" placeholder="Your Phone number" required>
+    <br>
+    <input type="submit" class="btn btn-primary">
+  </div>
+ </div>  
+</div>
+</form>
+</center>
+</body>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase.js"></script>
+
+<script src="js/main.js"> </script>
+</html>
